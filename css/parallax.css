@@ -1,0 +1,59 @@
+/*2002*/
+#windmill {
+	position: absolute;
+	left: 80px;
+	top: 262px;
+	z-index: 20;
+}
+
+#kite {
+	position: fixed;
+	top: 127px;
+	left: 1586px;
+	z-index: 21;
+}
+
+
+#sunset {
+	position: fixed;
+	top: 261px;
+	left: 1380px;
+}
+
+
+
+/*2011*/
+#sun {
+	position: fixed;
+	left: 19222px;
+}
+
+/*2012*/
+#rocket {
+	position: fixed;
+	left: 19428px;
+	top: 221px;
+	z-index: 10px;
+}
+
+#stars1 {
+	position: fixed;
+	left: 24288px;
+	top: 15px;
+	z-index: 9;
+}
+
+#stars2 {
+	position: fixed;
+	left: 22728px;
+	top: 220px;
+	z-index: 12;
+}
+
+/*2008*/
+
+#websites {
+	position: fixed;
+	top: 232px;
+	left: 11930px;
+}

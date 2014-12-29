@@ -1,0 +1,262 @@
+
+#orbit1 {
+	position: relative;
+	width: 1000px;
+	height: 800px;
+	left: 857px;
+	top: 155px;
+}
+
+
+.moon1 {
+	width:450px; 
+	height:449px;
+	z-index:1;
+	animation-name: spin;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 10s;
+}	
+@keyframes spin {
+from {
+	transform: rotate(0deg);
+	}
+
+to {
+	transform: rotate(360deg);
+
+	}
+}
+
+
+#orbit2 {
+	position: absolute;
+	width: 1000px;
+	height: 800px;
+	left: 1317px;
+	top: 25px;
+}
+
+
+.moon2 {
+	width:230px; 
+	height:230px;
+	z-index:1;
+	animation-name: spin2;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 6s;
+}	
+@keyframes spin2 {
+from {
+	transform: rotate(0deg);
+	}
+
+to {
+	transform: rotate(-360deg);
+
+	}
+}
+
+
+
+#spin1 {
+	position: relative;
+	left: 462px;
+	top: 83px;
+}
+
+
+.wheel {
+	z-index:20;
+	animation-name: spin;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 10s;
+}	
+@keyframes spin {
+from {
+	transform: rotate(0deg);
+	}
+
+to {
+	transform: rotate(360deg);
+
+	}
+}
+
+/*chrome and safari*/
+
+
+
+.moon1 {
+	-webkit-animation-name: spin;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 10s;
+}	
+@-webkit-keyframes spin {
+from {
+	-webkit-transform: rotate(0deg);
+	}
+
+to {
+	-webkit-transform: rotate(360deg);
+
+	}
+}
+
+
+.moon2 {
+	-webkit-animation-name: spin2;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 6s;
+}	
+@-webkit-keyframes spin2 {
+from {
+	-webkit-transform: rotate(0deg);
+	}
+
+to {
+	-webkit-transform: rotate(-360deg);
+
+	}
+}
+
+
+
+.wheel {
+	-webkit-animation-name: spin;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-duration: 10s;
+}	
+@-webkit-keyframes spin {
+from {
+	-webkit-transform: rotate(0deg);
+	}
+
+to {
+	-webkit-transform: rotate(360deg);
+
+	}
+}
+
+/*firefox*/
+
+
+
+
+.moon1 {
+	-moz-animation-name: spin;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-duration: 10s;
+}	
+@-moz-keyframes spin {
+from {
+	-moz-transform: rotate(0deg);
+	}
+
+to {
+	-moz-transform: rotate(360deg);
+
+	}
+}
+
+
+
+.moon2 {
+	-moz-animation-name: spin2;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-duration: 6s;
+}	
+@-moz-keyframes spin2 {
+from {
+	-moz-transform: rotate(0deg);
+	}
+
+to {
+	-moz-transform: rotate(-360deg);
+
+	}
+}
+
+.wheel {
+	-moz-animation-name: spin;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-duration: 10s;
+}	
+@-moz-keyframes spin {
+from {
+	-moz-transform: rotate(0deg);
+	}
+
+to {
+	-moz-transform: rotate(360deg);
+
+	}
+}
+
+
+/*opera*/
+
+
+
+.moon1 {
+	-o-animation-name: spin;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: linear;
+	-o-animation-duration: 10s;
+}	
+@-o-keyframes spin {
+from {
+	-o-transform: rotate(0deg);
+	}
+
+to {
+	-o-transform: rotate(360deg);
+
+	}
+}
+
+
+
+.moon2 {
+	-o-animation-name: spin2;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: linear;
+	-o-animation-duration: 6s;
+}	
+@-o-keyframes spin2 {
+from {
+	-o-transform: rotate(0deg);
+	}
+
+to {
+	-o-transform: rotate(-360deg);
+
+	}
+}
+
+
+.wheel {
+	-o-animation-name: spin;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function: linear;
+	-o-animation-duration: 10s;
+}	
+@-o-keyframes spin {
+from {
+	-o-transform: rotate(0deg);
+	}
+
+to {
+	-o-transform: rotate(360deg);
+
+	}
+}
+

@@ -1,0 +1,735 @@
+/*
+frog animation
+*/
+
+
+
+#frock {
+	z-index: 5;
+	position: absolute;
+}
+
+img#throat {
+	position: absolute;
+	top: 32px;
+	left: 53px;
+	z-index: 4;
+}
+
+
+#throat {
+	animation-name:shut;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes shut {
+	from {
+		top: 40px;
+	}
+	to {
+		top: 68px;
+	}
+
+}
+
+
+/*2005*/
+
+.square {
+	width: 10px;
+	height: 10px;
+	background: #f58220;
+}
+
+.square {
+	animation-name: blink;
+	animation-duration: 0.4s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	animation-timing-function:easeIn;
+}
+
+@keyframes blink {
+	from {
+		background: black;
+	}
+	to {
+		background: #f58220;
+	}
+}
+
+.swipe {
+	position: absolute;
+	animation-name: swipe;
+	animation-duration: 0.4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: easeIn;
+}
+
+
+@keyframes swipe {
+	from {
+		width: 20%;
+		left: 20%;
+	}
+	to {
+		width: 40%
+		left: 0%;
+	}
+}
+
+.grow {
+	position: absolute;
+	animation-name: grow;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+
+@keyframes grow {
+	from {
+		width: 35%;
+		height: 35%;
+	}
+	to {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.width {
+	position: absolute;
+	animation-name: width;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: easeIn;
+}
+
+
+@keyframes width {
+	from {
+		width: 100%;
+	}
+	to {
+		width: 200%;
+	}
+}
+
+/*2008*/
+
+.flash {
+	animation-name: flash;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	animation-timing-function:easeIn;
+}
+
+@keyframes flash {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+/*2009*/
+
+#heart {
+	animation-name: bump;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	animation-timing-function:ease;
+}
+
+@keyframes bump {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.2);
+	}
+}
+
+/*2010*/
+
+.up {
+	position: absolute;
+	animation-name: updown;
+	animation-duration: 1.8s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	animation-timing-function:linear;
+}
+
+@keyframes updown {
+	from {
+		top:0px;
+	}
+	to {
+		top:45px;
+		height: 30px;
+	}
+}
+
+/*chrome and safari*/
+/*
+frog animation
+*/
+
+
+
+#frock {
+	z-index: 5;
+	position: absolute;
+}
+
+img#throat {
+	position: absolute;
+	top: 32px;
+	left: 53px;
+	z-index: 4;
+}
+
+
+#throat {
+	-webkit-animation-name:shut;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes shut {
+	from {
+		top: 40px;
+	}
+	to {
+		top: 68px;
+	}
+
+}
+
+
+/*2005*/
+
+.square {
+	width: 10px;
+	height: 10px;
+	background: #f58220;
+}
+
+.square {
+	-webkit-animation-name: blink;
+	-webkit-animation-duration: 0.4s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-timing-function:easeIn;
+}
+
+@-webkit-keyframes blink {
+	from {
+		background: black;
+	}
+	to {
+		background: #f58220;
+	}
+}
+
+.swipe {
+	position: absolute;
+	-webkit-animation-name: swipe;
+	-webkit-animation-duration: 0.4s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: easeIn;
+}
+
+
+@-webkit-keyframes swipe {
+	from {
+		width: 20%;
+		left: 20%;
+	}
+	to {
+		width: 40%
+		left: 0%;
+	}
+}
+
+.grow {
+	position: absolute;
+	-webkit-animation-name: grow;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: linear;
+}
+
+
+@-webkit-keyframes grow {
+	from {
+		width: 35%;
+		height: 35%;
+	}
+	to {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.width {
+	position: absolute;
+	-webkit-animation-name: width;
+	-webkit-animation-duration: 0.8s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: easeIn;
+}
+
+
+@-webkit-keyframes width {
+	from {
+		width: 100%;
+	}
+	to {
+		width: 200%;
+	}
+}
+
+/*2008*/
+
+.flash {
+	-webkit-animation-name: flash;
+	-webkit-animation-duration: 0.8s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-timing-function:easeIn;
+}
+
+@-webkit-keyframes flash {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+/*2009*/
+
+#heart {
+	-webkit-animation-name: bump;
+	-webkit-animation-duration: 0.8s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-timing-function:ease;
+}
+
+@-webkit-keyframes bump {
+	from {
+		-webkit-transform: scale(1);
+	}
+	to {
+		-webkit-transform: scale(1.2);
+	}
+}
+
+/*2010*/
+
+.up {
+	position: absolute;
+	-webkit-animation-name: updown;
+	-webkit-animation-duration: 1.8s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction:alternate;
+	-webkit-animation-timing-function:linear;
+}
+
+@-webkit-keyframes updown {
+	from {
+		top:0px;
+	}
+	to {
+		top:45px;
+		height: 30px;
+	}
+}
+
+/*for firefox*/
+/*
+frog animation
+*/
+
+
+
+#frock {
+	z-index: 5;
+	position: absolute;
+}
+
+img#throat {
+	position: absolute;
+	top: 32px;
+	left: 53px;
+	z-index: 4;
+}
+
+
+#throat {
+	-moz-animation-name:shut;
+	-moz-animation-duration: 2s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction:alternate;
+	-moz-animation-timing-function: linear;
+}
+
+@-moz-keyframes shut {
+	from {
+		top: 40px;
+	}
+	to {
+		top: 68px;
+	}
+
+}
+
+
+/*2005*/
+
+.square {
+	width: 10px;
+	height: 10px;
+	background: #f58220;
+}
+
+.square {
+	-moz-animation-name: blink;
+	-moz-animation-duration: 0.4s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction:alternate;
+	-moz-animation-timing-function:easeIn;
+}
+
+@-moz-keyframes blink {
+	from {
+		background: black;
+	}
+	to {
+		background: #f58220;
+	}
+}
+
+.swipe {
+	position: absolute;
+	-moz-animation-name: swipe;
+	-moz-animation-duration: 0.4s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+	-moz-animation-timing-function: easeIn;
+}
+
+
+@-moz-keyframes swipe {
+	from {
+		width: 20%;
+		left: 20%;
+	}
+	to {
+		width: 40%
+		left: 0%;
+	}
+}
+
+.grow {
+	position: absolute;
+	-moz-animation-name: grow;
+	-moz-animation-duration: 2s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+	-moz-animation-timing-function: linear;
+}
+
+
+@-moz-keyframes grow {
+	from {
+		width: 35%;
+		height: 35%;
+	}
+	to {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.width {
+	position: absolute;
+	-moz-animation-name: width;
+	-moz-animation-duration: 0.8s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+	-moz-animation-timing-function: easeIn;
+}
+
+
+@-moz-keyframes width {
+	from {
+		width: 100%;
+	}
+	to {
+		width: 200%;
+	}
+}
+
+/*2008*/
+
+.flash {
+	-moz-animation-name: flash;
+	-moz-animation-duration: 0.8s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction:alternate;
+	-moz-animation-timing-function:easeIn;
+}
+
+@-moz-keyframes flash {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+/*2009*/
+
+#heart {
+	-moz-animation-name: bump;
+	-moz-animation-duration: 0.8s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction:alternate;
+	-moz-animation-timing-function:ease;
+}
+
+@-moz-keyframes bump {
+	from {
+		-moz-transform: scale(1);
+	}
+	to {
+		-moz-transform: scale(1.2);
+	}
+}
+
+/*2010*/
+
+.up {
+	position: absolute;
+	-moz-animation-name: updown;
+	-moz-animation-duration: 1.8s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction:alternate;
+	-moz-animation-timing-function:linear;
+}
+
+@-moz-keyframes updown {
+	from {
+		top:0px;
+	}
+	to {
+		top:45px;
+		height: 30px;
+	}
+}
+
+/*opera*/
+
+/*
+frog animation
+*/
+
+
+
+#frock {
+	z-index: 5;
+	position: absolute;
+}
+
+img#throat {
+	position: absolute;
+	top: 32px;
+	left: 53px;
+	z-index: 4;
+}
+
+
+#throat {
+	-o-animation-name:shut;
+	-o-animation-duration: 2s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction:alternate;
+	-o-animation-timing-function: linear;
+}
+
+@-o-keyframes shut {
+	from {
+		top: 40px;
+	}
+	to {
+		top: 68px;
+	}
+
+}
+
+
+/*2005*/
+
+.square {
+	width: 10px;
+	height: 10px;
+	background: #f58220;
+}
+
+.square {
+	-o-animation-name: blink;
+	-o-animation-duration: 0.4s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction:alternate;
+	-o-animation-timing-function:easeIn;
+}
+
+@-o-keyframes blink {
+	from {
+		background: black;
+	}
+	to {
+		background: #f58220;
+	}
+}
+
+.swipe {
+	position: absolute;
+	-o-animation-name: swipe;
+	-o-animation-duration: 0.4s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction: alternate;
+	-o-animation-timing-function: easeIn;
+}
+
+
+@-o-keyframes swipe {
+	from {
+		width: 20%;
+		left: 20%;
+	}
+	to {
+		width: 40%
+		left: 0%;
+	}
+}
+
+.grow {
+	position: absolute;
+	-o-animation-name: grow;
+	-o-animation-duration: 2s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction: alternate;
+	-o-animation-timing-function: linear;
+}
+
+
+@-o-keyframes grow {
+	from {
+		width: 35%;
+		height: 35%;
+	}
+	to {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.width {
+	position: absolute;
+	-o-animation-name: width;
+	-o-animation-duration: 0.8s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction: alternate;
+	-o-animation-timing-function: easeIn;
+}
+
+
+@-o-keyframes width {
+	from {
+		width: 100%;
+	}
+	to {
+		width: 200%;
+	}
+}
+
+/*2008*/
+
+.flash {
+	-o-animation-name: flash;
+	-o-animation-duration: 0.8s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction:alternate;
+	-o-animation-timing-function:easeIn;
+}
+
+@-o-keyframes flash {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+/*2009*/
+
+#heart {
+	-o-animation-name: bump;
+	-o-animation-duration: 0.8s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction:alternate;
+	-o-animation-timing-function:ease;
+}
+
+@-o-keyframes bump {
+	from {
+		-o-transform: scale(1);
+	}
+	to {
+		-o-transform: scale(1.2);
+	}
+}
+
+/*2010*/
+
+.up {
+	position: absolute;
+	-o-animation-name: updown;
+	-o-animation-duration: 1.8s;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction:alternate;
+	-o-animation-timing-function:linear;
+}
+
+@-o-keyframes updown {
+	from {
+		top:0px;
+	}
+	to {
+		top:45px;
+		height: 30px;
+	}
+}

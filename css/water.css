@@ -1,0 +1,203 @@
+#water {
+	height: 50px;
+	width: 20px;
+	position: absolute;
+	top: 303px;
+left: 115px;
+}
+
+.cloud {
+	width: 60px;
+	height: 20px;
+	position: absolute;
+}
+
+.drop {
+	width: 3px;
+	height: 11px;
+	position: absolute;
+	left: 0;
+	top: 0px;
+}
+
+.drop1 {
+	width: 3px;
+	height: 11px;
+	position: absolute;
+	left: 4px;
+	top: 0px;
+}
+
+.drop2 {
+	width: 3px;
+	height: 11px;
+	position: absolute;
+	left: 7px;
+	top: 0px;
+}
+
+.drop3 {
+	width: 3px;
+	height: 11px;
+	position: absolute;
+	left: 10px;
+	top: 0px;
+}
+
+.drop4 {
+	width: 3px;
+	height: 11px;
+	position: absolute;
+	left: 13px;
+	top: 0px;
+}
+
+.drop5 {
+	width: 3px;
+	height: 11px;
+	position: absolute;
+	left: 15px;
+	top: 0px;
+}
+
+
+@keyframes fall {
+	from {
+		top: 0;
+	}
+	to {
+		top: 60px;
+		opacity: 0.2;
+	}
+}
+
+#water .drop, .drop1, .drop2, .drop3, .drop4, .drop5 {
+	animation-name:fall;
+	animation-iteration-count: infinite;
+	animation-timing-function:ease-in;
+	animation-duration: 1s;
+}
+
+#water .drop1,  .drop5 {
+	animation-delay:0.3s;
+}
+
+#water .drop2, { 
+	animation-delay:0.6s;
+}
+
+#water .drop4 {
+	animation-delay:0.4s;
+}
+
+#water .drop3 {
+	animation-delay:0.7s;
+}
+
+/*chrome and safari*/
+
+@-webkit-keyframes fall {
+	from {
+		top: 0;
+	}
+	to {
+		top: 60px;
+		opacity: 0.2;
+	}
+}
+
+#water .drop, .drop1, .drop2, .drop3, .drop4, .drop5 {
+	-webkit-animation-name:fall;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function:ease-in;
+	-webkit-animation-duration: 1s;
+}
+
+#water .drop1,  .drop5 {
+	-webkit-animation-delay:0.3s;
+}
+
+#water .drop2, { 
+	-webkit-animation-delay:0.6s;
+}
+
+#water .drop4 {
+	-webkit-animation-delay:0.4s;
+}
+
+#water .drop3 {
+	-webkit-animation-delay:0.7s;
+}
+
+
+/*firefox*/
+
+
+@-moz-keyframes fall {
+	from {
+		top: 0;
+	}
+	to {
+		top: 60px;
+		opacity: 0.2;
+	}
+}
+
+#water .drop, .drop1, .drop2, .drop3, .drop4, .drop5 {
+	-moz-animation-name:fall;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function:ease-in;
+	-moz-animation-duration: 1s;
+}
+
+#water .drop1,  .drop5 {
+	-moz-animation-delay:0.3s;
+}
+
+#water .drop2, { 
+	-moz-animation-delay:0.6s;
+}
+
+#water .drop4 {
+	-moz-animation-delay:0.4s;
+}
+
+#water .drop3 {
+	-moz-animation-delay:0.7s;
+}
+
+/*opera*/
+
+@-o-keyframes fall {
+	from {
+		top: 0;
+	}
+	to {
+		top: 60px;
+		opacity: 0.2;
+	}
+}
+
+#water .drop, .drop1, .drop2, .drop3, .drop4, .drop5 {
+	-o-animation-name:fall;
+	-o-animation-iteration-count: infinite;
+	-o-animation-timing-function:ease-in;
+	-o-animation-duration: 1s;
+}
+
+#water .drop1,  .drop5 {
+	-o-animation-delay:0.3s;
+}
+
+#water .drop2, { 
+	-o-animation-delay:0.6s;
+}
+
+#water .drop4 {
+	-o-animation-delay:0.4s;
+}
+
+#water .drop3 {
+	-o-animation-delay:0.7s;
+}
+
